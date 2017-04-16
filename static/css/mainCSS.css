@@ -1,0 +1,13 @@
+.me {
+    float: left;
+    padding-right: 2%;
+}
+
+.skills, .education, .cont {
+    display: inline-block;
+    padding: 0 4%;
+}
+
+.cont li {
+    list-style: none;
+}

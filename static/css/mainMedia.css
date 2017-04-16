@@ -1,0 +1,14 @@
+.me {
+    float: none;
+    width: 100%;
+    padding-right: 2%;
+}
+
+.menu li {
+    float: none;
+    list-style: none;
+    padding-top: 5px ;
+    border-top: 1px solid dimgray;
+    text-align: center;
+    width: auto;
+}

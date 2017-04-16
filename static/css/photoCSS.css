@@ -1,0 +1,60 @@
+.content {
+    height: 100%;
+}
+
+body, html {
+    height: 95%;
+}
+
+.container {
+    min-height: 65%;
+}
+ #largeImg {
+     border: solid 1px #ccc;
+     min-width: 400px;
+     padding: 5px;
+     max-width: 600px;
+ }
+.view {
+    box-sizing: border-box;
+    display: none;
+    z-index: 9997;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.visible{
+    display: block;
+}
+#thumbs a {
+    border: solid 1px #ccc;
+    max-width: 200px;
+    padding: 3px;
+    margin: 2px;
+    float: left;
+}
+
+#thumbs a:hover {
+    border-color: #FF9900;
+}
+
+#thumbs li {
+    list-style: none;
+    display:inline-block;
+}
+#thumbs img{
+    max-height: 200px;
+    max-width: 200px;
+}
+#thumbs {
+    margin: 0;
+    padding: 0;
+}

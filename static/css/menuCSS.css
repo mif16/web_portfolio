@@ -1,0 +1,18 @@
+.menu li a {
+    display: block;
+    padding: 2% 1.9%;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    width: 49%;
+    border: 1px solid grey;
+}
+
+a {
+    color: #CECECE;
+    text-decoration: none;
+    word-wrap: normal;
+}
